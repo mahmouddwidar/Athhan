@@ -626,6 +626,7 @@ h6,
 
 .form-control:focus {
     box-shadow: 0 0 0 0.25rem #48abb071 !important;
+    border-color: var(--dark) !important;
 }
 
 .footer .copyright {
@@ -658,4 +659,11 @@ h6,
 .blog-main .container .by-post a,
 .blog-main .container .page-link {
     color: var(--dark) !important;
+}
+
+/* Service Page */
+
+.ser-img {
+    max-width: 65%;
+    border: 8px solid var(--primary);
 }
