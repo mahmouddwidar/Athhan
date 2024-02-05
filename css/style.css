@@ -1,4 +1,27 @@
-/********** Template CSS **********/
+/* 
+---------------------------------------------
+Table of contents
+---------------------------------------------
+01. Template CSS
+02. NavBar
+03. Hero
+04. Facts 
+05. About & Feature
+06. Service 
+07. Project 
+08. Team
+09. Testimonial
+10. Footer
+11. Other Pages
+--------------------------------------------- 
+*/
+
+
+/* 
+---------------------------------------------
+Template CSS
+--------------------------------------------- 
+*/
 :root {
     --primary: #0e8388;
     --light: #F8F8F8;
@@ -136,8 +159,11 @@ h6,
 }
 
 
-/*** Navbar ***/
-
+/* 
+---------------------------------------------
+Navbar
+--------------------------------------------- 
+*/
 .navbar {
     padding: 0;
 }
@@ -208,19 +234,11 @@ h6,
     }
 }
 
-
-/*** Header ***/
-.owl-carousel-inner {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    background: rgba(0, 0, 0, .5);
-}
-
+/* 
+---------------------------------------------
+Hero
+--------------------------------------------- 
+*/
 #hero {
     background: rgba(0, 0, 0, 0.65) url(../img/hero2.webp) no-repeat center center/cover;
     background-blend-mode: overlay;
@@ -258,64 +276,6 @@ h6,
     border-radius: 5px;
 }
 
-@media (max-width: 768px) {
-    .header-carousel .owl-carousel-item {
-        position: relative;
-        min-height: 500px;
-    }
-
-    .header-carousel .owl-carousel-item img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .header-carousel .owl-carousel-item p {
-        font-size: 16px !important;
-    }
-}
-
-.header-carousel .owl-dots {
-    position: absolute;
-    width: 60px;
-    height: 100%;
-    top: 0;
-    right: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-carousel .owl-dots .owl-dot {
-    position: relative;
-    width: 45px;
-    height: 45px;
-    margin: 5px 0;
-    background: var(--dark);
-    transition: .5s;
-}
-
-.header-carousel .owl-dots .owl-dot.active {
-    width: 60px;
-    height: 60px;
-}
-
-.header-carousel .owl-dots .owl-dot img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 2px;
-    transition: .5s;
-    opacity: .3;
-}
-
-.header-carousel .owl-dots .owl-dot.active img {
-    opacity: 1;
-}
-
 .page-header {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/about-cover.jpg) center bottom no-repeat;
     background-size: cover;
@@ -335,8 +295,11 @@ h6,
     text-transform: uppercase;
 }
 
-
-/*** Facts ***/
+/* 
+---------------------------------------------
+Facts
+--------------------------------------------- 
+*/
 .fact-item .fact-icon {
     width: 120px;
     height: 120px;
@@ -363,8 +326,11 @@ h6,
     color: #FFFFFF;
 }
 
-
-/*** About & Feature ***/
+/* 
+---------------------------------------------
+About & Feature
+--------------------------------------------- 
+*/
 .about-img,
 .feature-img {
     position: relative;
@@ -397,8 +363,11 @@ h6,
     z-index: -1;
 }
 
-
-/*** Service ***/
+/* 
+---------------------------------------------
+Service
+--------------------------------------------- 
+*/
 .service-item .bg-img {
     position: absolute;
     width: 100%;
@@ -440,8 +409,11 @@ h6,
     width: 140px;
 }
 
-
-/*** Project ***/
+/* 
+---------------------------------------------
+Project
+--------------------------------------------- 
+*/
 .project .nav .nav-link {
     background: var(--light);
     transition: .5s;
@@ -455,8 +427,11 @@ h6,
     color: #FFFFFF !important;
 }
 
-
-/*** Team ***/
+/* 
+---------------------------------------------
+Team
+--------------------------------------------- 
+*/
 .team-items {
     margin: -.75rem;
 }
@@ -502,35 +477,11 @@ h6,
 }
 
 
-/*** Appointment ***/
-.bootstrap-datetimepicker-widget.bottom {
-    top: auto !important;
-}
-
-.bootstrap-datetimepicker-widget .table * {
-    border-bottom-width: 0px;
-}
-
-.bootstrap-datetimepicker-widget .table th {
-    font-weight: 500;
-}
-
-.bootstrap-datetimepicker-widget.dropdown-menu {
-    padding: 10px;
-    border-radius: 2px;
-}
-
-.bootstrap-datetimepicker-widget table td.active,
-.bootstrap-datetimepicker-widget table td.active:hover {
-    background: var(--primary);
-}
-
-.bootstrap-datetimepicker-widget table td.today::before {
-    border-bottom-color: var(--primary);
-}
-
-
-/*** Testimonial ***/
+/* 
+---------------------------------------------
+Testimonial
+--------------------------------------------- 
+*/
 .testimonial-carousel {
     display: flex !important;
     flex-direction: column-reverse;
@@ -592,8 +543,11 @@ h6,
     opacity: 1;
 }
 
-
-/*** Footer ***/
+/* 
+---------------------------------------------
+Footer
+--------------------------------------------- 
+*/
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
@@ -644,7 +598,11 @@ h6,
 }
 
 
-/* Other Pages */
+/* 
+---------------------------------------------
+Other Pages
+--------------------------------------------- 
+*/
 
 /* Blog Page */
 .blog-main .container .form-control {
@@ -661,8 +619,8 @@ h6,
     color: var(--dark) !important;
 }
 
-/* Service Page */
 
+/* Service Page */
 .ser-img {
     max-width: 65%;
     border: 8px solid var(--primary);
